@@ -1,5 +1,5 @@
 //your JS code here. If required.
 let student = {'name': 'XYZ'};
  student.__proto__.getKeys = function(){
-	 Object.keys(this);
+	 return Object.keys(this);
  }
